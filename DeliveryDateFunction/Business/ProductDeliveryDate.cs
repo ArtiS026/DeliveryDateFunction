@@ -26,7 +26,7 @@ namespace DeliveryDateFunction.Business
                 productlist = GetProduct();
 
                 DateTime startdate = DateTime.Now;
-                TimeSpan fortnight = TimeSpan.FromDays(14);
+                TimeSpan fortnight = TimeSpan.FromDays(14); 
                 DateTime enddate = startdate.Add(fortnight);
 
                 var defaultdeliverydates = new List<DateTime>();
