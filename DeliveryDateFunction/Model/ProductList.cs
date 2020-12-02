@@ -15,8 +15,8 @@ namespace DeliveryDateFunction.Model
 
         public class Deliverdates
         {
-            public int postalcode { get; set; }
-            public bool isGreenDelivery { get; set; }
+            public int postalcode { get; set; } 
+            public bool isGreenDelivery { get; set; } 
             public DateTime deliveryDate { get; set; } 
         }
 
