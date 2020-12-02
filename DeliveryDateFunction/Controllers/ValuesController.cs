@@ -13,7 +13,7 @@ namespace DeliveryDateFunction.Controllers
     {
         // GET api/values
         [HttpGet]
-        public ActionResult<ProductList.Deliverdates> GetJsonResult()
+        public ActionResult<ProductList.Deliverdates> GetDeliveryDates()
         {
             try
             {
