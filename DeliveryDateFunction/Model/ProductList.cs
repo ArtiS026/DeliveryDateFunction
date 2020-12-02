@@ -19,7 +19,7 @@ namespace DeliveryDateFunction.Model
             public bool isGreenDelivery { get; set; } 
             public DateTime deliveryDate { get; set; } 
         }
-
+         
         public class Data
         {
             public List<Deliverdates> Deliverydates { get; set; }
