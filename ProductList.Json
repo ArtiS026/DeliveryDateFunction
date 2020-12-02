@@ -1,0 +1,29 @@
+[
+productlist
+1{
+productid: 1,
+name:"egg",
+deliverydate: "2019-02-12T00:00:00+01:00""green",
+productype: "temporary",
+daysInAdvance :5
+
+},
+2{
+productid: 2,
+name:"lotion",
+deliverydate: "2019-02-22T00:00:00+01:00",
+productype: external",
+daysInAdvance :10
+
+},
+3
+{
+productid: 3,
+name:"rice",
+deliverydate: "2019-02-22T00:00:00+01:00",
+productype: "normal",
+daysInAdvance :15
+
+}
+}
+]
